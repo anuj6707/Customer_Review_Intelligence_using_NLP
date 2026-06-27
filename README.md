@@ -1,4 +1,4 @@
-# Customer Review Intelligence using NLP and Naive Bayes 🛒📊
+# Customer Review Intelligence using NLP and Naive Bayes 
 
 ## Overview
 
@@ -10,7 +10,7 @@ By combining text preprocessing, vectorization techniques, and Naive Bayes class
 
 ---
 
-## Business Problem
+## Problem Statement
 
 E-commerce platforms receive thousands of customer reviews daily.
 
@@ -31,27 +31,6 @@ Such systems can help businesses:
 * Prioritize customer concerns
 
 ---
-
-## Dataset
-
-The dataset contains Flipkart product review information including:
-
-### Features
-
-* ProductName
-* Price
-* Rate
-* Summary
-
-### Target Variable
-
-A custom sentiment label was created from customer ratings:
-
-| Rating | Sentiment |
-| ------ | --------- |
-| 1-2    | Negative  |
-| 3      | Neutral   |
-| 4-5    | Positive  |
 
 ---
 
@@ -229,21 +208,6 @@ Customer feedback provides insight into:
 
 ---
 
-## Project Structure
-
-```text
-customer-review-intelligence/
-│
-├── notebooks/
-│   └── sentiment_analysis_nlp.ipynb
-│
-├── data/
-│   └── flipkart_product.csv
-│
-├── README.md
-│
-└── requirements.txt
-```
 
 ---
 
@@ -261,22 +225,6 @@ Potential future enhancements include:
 
 ---
 
-## Skills Demonstrated
-
-This project demonstrates practical experience with:
-
-* Natural Language Processing (NLP)
-* Text Cleaning
-* Feature Engineering
-* Count Vectorization
-* TF-IDF Vectorization
-* Naive Bayes Classification
-* Sentiment Analysis
-* Exploratory Data Analysis
-* Business Intelligence
-
----
-
 ## Conclusion
 
 This project demonstrates how Natural Language Processing and Machine Learning can transform unstructured customer reviews into meaningful business insights.
@@ -285,12 +233,5 @@ Using Naive Bayes and vectorization techniques, customer sentiment was successfu
 
 ---
 
-## Author
-
-Built as part of a machine learning learning journey focused on:
-
-* Natural Language Processing
-* Machine Learning Classification
-* Business Analytics
 * Customer Experience Intelligence
 * Applied Data Science
